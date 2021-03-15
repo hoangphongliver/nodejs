@@ -1,27 +1,30 @@
 {
-  "name": "myapp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "nodemon --inspect src/index.js",
-    "watch": "node-sass src/assets/scss/app.scss src/assets/css/app.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.11.18",
-    "morgan": "^1.10.0",
-    "node-sass": "^5.0.0",
-    "nodemon": "^2.0.7",
-    "validator": "^13.5.2"
-  }
+   "name": "smart-shop",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/express": "^4.17.11",
+      "@types/morgan": "^1.9.2",
+      "@types/node": "^14.14.31",
+      "morgan": "^1.10.0",
+      "ts-node": "^9.1.1",
+      "typescript": "^4.2.2"
+   },
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.19.0",
+      "class-validator": "^0.13.1",
+      "cors": "^2.8.5",
+      "dayjs": "^1.10.4",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mysql": "^2.18.1",
+      "nodemon": "^2.0.7",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "^0.2.31"
+   },
+   "scripts": {
+      "start": "nodemon src/server.ts"
+   }
 }
